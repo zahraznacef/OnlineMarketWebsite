@@ -1,0 +1,129 @@
+:root{
+    --roboto : "Roboto",sans-serif;
+}
+.mainscreen{
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+.companyname{
+    font-size: 55px;
+    font-family: 'Roboto',sans-serif;
+	text-transform: uppercase;
+    background: linear-gradient(to left bottom, #b6509e, #8b75cc, #4993df, #00a9da, #2ebac6);
+    background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.aboutme{
+    height: 100vh;
+    width: 100%;
+    background-image: url(wave.svg);
+    background-repeat: no-repeat;
+}
+.aboutme-header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-family: var(--roboto);
+}.aboutme-content{
+    height: calc(100% - 100px);
+    display: flex;
+    width: 100%;
+}
+.aboutme-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 100%;
+}
+.aboutme-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.items-for-sale{
+    height: 100vh;
+    width: 100%
+}
+.items-index{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: calc(100% - 100px);
+}
+.item-index-1,.item-index-2,.item-index-3{
+    height: 200px;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+}
+.item-index-1{
+    background-image: url(speakerv1.png);
+}
+.item-index-2{
+    background-image: url(earphonesv1.png);
+}
+.item-index-3{
+    background-image: url(speakerv2.png);
+}
+.price{
+    float:right;
+    font-size: 25px;
+}
+.slideshow{
+    height: 100vh;
+    width: 100%;
+}
+.slideshow-content{
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+}
+.content-slideshow{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.slider{
+    height: 80%;
+    width: 70%;
+}
+.list-items-for-sale{
+    height: auto;
+    width: 100%;
+}
+footer{
+    transform: translateY(100px);
+}
+
+
+
+.justify-content-flex-end{
+    justify-content: flex-end;
+}
+.color-white{
+    color: white !important;
+}
+.p-fixed{
+    position: fixed;
+}

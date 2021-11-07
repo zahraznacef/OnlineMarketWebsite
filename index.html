@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/myshop.css">
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-fixed" style="background-color: transparent !important;z-index: 999;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/index.html"><img src="/logo.png" height="40px" width="40px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-flex justify-content-flex-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active color-white" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link color-white" href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link color-white" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <main>
+          <div class="mainscreen">
+              <h2 class="companyname">A-Music</h2>
+          </div>
+          <div style="height: calc(100vh - 66px);width: 100%;"></div>
+
+          <div class="aboutme">
+              <div class="aboutme-header">A-Music</div>
+              <div class="aboutme-content">
+                  <div class="aboutme-logo"><img src="/logo.png" height="300px" width="300px"></div>
+                  <div class="aboutme-text">
+                      <p>A-Music is an international company.</p>
+                      <p>We sell the best products for Music listening!</p>
+                      <p>You order online and we ship you your products to wherever you are in the world.</p>
+                  </div>
+              </div>
+          </div>
+
+          <div class="items-for-sale">
+              <div class="aboutme-header">Our products</div>
+              <div class="items-index">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-img-top item-index-1"></div>
+                    <div class="card-body">
+                      <h5 class="card-title">JBL Portable Speaker Flip 5</h5>
+                      <p class="card-text">
+                        Bluetooth 4.2v <br> Battery Power 4800 mAh <br> Dimensions 220 x 95 x 93 Mm <br> <p class="price">199.99$</p>
+                      </p>
+                      <a href="#" class="btn btn-danger">Buy now</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <div class="card-img-top item-index-2"></div>
+                    <div class="card-body">
+                      <h5 class="card-title">Wireless Earphones JBL125</h5>
+                      <p class="card-text">
+                        Bluetooth 4.2v <br> Battery Power 1500 mAh <br> Dimensions 50 x 45 x 33 Mm <br> <p class="price">79.99$</p>
+                      </p>
+                      <a href="#" class="btn btn-danger">Buy now</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <div class="card-img-top item-index-3"></div>
+                    <div class="card-body">
+                      <h5 class="card-title">JBL Speaker v4 </h5>
+                      <p class="card-text">
+                        Bluetooth 6.2v <br> Battery Power 6800 mAh <br> Dimensions 220 x 85 x 63 Mm <br> <p class="price">299.99$</p>
+                        </p>
+                      <a href="#" class="btn btn-danger">Buy now</a>
+                    </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="slideshow">
+              <div class="aboutme-header">New Products</div>
+              <div class="slideshow-content">
+                  <div class="content-slideshow">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti voluptatibus dolor cumque ea earum aut sequi omnis quisquam, rem assumenda ut in, nesciunt magni. Explicabo aperiam mollitia expedita saepe nesciunt?
+                  </div>
+                  <div class="slider">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="slider1.jpg" class="d-block w-100">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="slider1.jpg" class="d-block w-100">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="slider1.jpg" class="d-block w-100">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </main>
+
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top" style="transform: translateY(100px);">
+            <p class="col-md-4 mb-0 text-muted">&copy; 2021 A-Music, Inc</p>
+        
+            <a href="/index.html" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+            <img src="logo.png" alt="" height="40px" width="40px">
+            </a>
+        
+            <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="/index.html" class="nav-link px-2 text-muted">Home</a></li>
+            <li class="nav-item"><a href="/shop.html" class="nav-link px-2 text-muted">Shop</a></li>
+            <li class="nav-item"><a href="/contact.html" class="nav-link px-2 text-muted">Contact</a></li>
+            </ul>
+        </footer>
+    </div>
+
+
+<script>
+    console.log(document.getElementsByTagName("nav")[0].offsetHeight)
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>    
+</body>
+</html>
